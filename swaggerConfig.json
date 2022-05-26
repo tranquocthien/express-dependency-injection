@@ -1,0 +1,18 @@
+{
+	"swagger": {
+		"outputDirectory": ".",
+		"entryFile": "./src/modules/*/*.ts",
+		"basePath": "/api",
+		"name": "Api Document",
+		"securityDefinitions": {
+			"api_key": {
+					"type": "apiKey",
+					"name": "access_token",
+					"in": "header"
+			}
+		},
+		"ignore": [
+			"**/node_modules/**"
+		]
+	}
+}

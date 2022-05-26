@@ -1,0 +1,14 @@
+basePath: /api
+definitions: {}
+info:
+    license:
+        name: ISC
+    title: 'Api Document'
+    version: 1.0.0
+paths: {}
+swagger: '2.0'
+securityDefinitions:
+    api_key:
+        type: apiKey
+        name: access_token
+        in: header

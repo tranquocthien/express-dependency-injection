@@ -1,0 +1,6 @@
+{
+	"swagger": {
+		"spec": "./swaggerConfig.build.json",
+		"outputDirectory": "./dist"
+	}
+}
