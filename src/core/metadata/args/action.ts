@@ -1,7 +1,7 @@
 import { ActionType } from '@core/types/action';
 import { Action } from '@core/action/controller';
-import { ActionMetadata } from '../ActionMetadata';
-import { HandlerOptions } from '../../decorator-options/HandlerOptions';
+import { ActionMetadata } from '@core/metadata/actionMetadata';
+import { HandlerOptions } from '@core/decorators/options/handler';
 
 /**
  * Action metadata used to storage information about registered action.
